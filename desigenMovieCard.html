@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="desigenMovieCard.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <main>
+       <div class="container-fluid p-0">
+           <div class="background">
+               <div class="background-content">
+                   <div class="text-content">
+                       <h1 class="display">Extraction</h1>
+                       <p class="text-muted">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quasi modi eaque. Culpa voluptatum provident temporibus fuga, error quaerat quod aut. Ipsa quia temporibus nulla, molestias mollitia id fugiat dolore!
+                           A laboriosam nobis alias saepe ea suscipit aliquam perferendis nisi illum, molestiae at quasi consectetur sit! Eius dolorum nemo assumenda quibusdam quidem inventore officia voluptas! Accusantium, ut. Eligendi, facilis amet.
+                           Voluptatum doloremque obcaecati placeat totam consequuntur aspernatur voluptatem. Nostrum voluptatum recusandae excepturi quae unde exercitationem magni aliquam minus in! Optio officia a praesentium inventore, quas suscipit incidunt. Quam, fugit voluptas.
+                           Vitae vero consequatur nihil ab recusandae natus maxime ducimus autem eum ratione dolor laboriosam voluptas sapiente quaerat exercitationem, nulla aliquid delectus, nostrum pariatur necessitatibus reiciendis corrupti quos laudantium! Cum, enim?
+                        </p>
+                           <span class="text-muted">2021&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;movie&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;16+
+                        </span>
+                      <button class="btn"><i class="fa fa-play"></i>&nbsp;&nbsp;NEXT EPISODE</button>
+                      <button class="btn"><i class="fa fa-plus"></i>&nbsp;&nbsp;ADD LIST</button>
+                   </div>
+                   <div class="popular">
+                       <h5 class="text-muted"><i class="fa fa-star"></i>POPULAR ON NETFLIX</h5>
+                       <div class="row no-gutters">
+                        <div class="col-xl-2">
+                            <img src="./src/components/pages/images/movie1.jpeg" width="220" id="img1" alt="">
+                        </div>
+                        <div class="col-xl-2">
+                            <img src="./src/components/pages/images/movie2.jpeg" width="220" id="img2" alt="">
+                        </div>
+                        <div class="col-xl-2">
+                            <img src="./src/components/pages/images/movie3.jpeg" width="220" id="img3" alt="">
+                        </div>
+                        <div class="col-xl-2">
+                            <img src="./src/components/pages/images/movie4.jpeg" width="220" id="img4" alt="">
+                        </div>
+                        <div class="col-xl-2">
+                            <img src="./img/rumble-s.jpeg" width="220" id="img5" alt="">
+                        </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#img1').click(function(){
+                $('.background').css({background: 'url(the-Rockoning.jpeg) no-repeat center', backgroundSize: 'cover'});
+                $('.text-content h1').text('extinction');
+            });
+            $('#img2').click(function(){
+                $('.background').css({background: 'url(./img/BLISS.jpeg) no-repeat center', backgroundSize: 'cover'});
+                $('.text-content h1').text('extinction');
+            });
+            $('#img3').click(function(){
+                $('.background').css({background: 'url(Cosmic-Sin.jpeg) no-repeat center', backgroundSize: 'cover'});
+                $('.text-content h1').text('extinction');
+            });
+            $('#img4').click(function(){
+                $('.background').css({background: 'url(Wonderland.jpeg) no-repeat center', backgroundSize: 'cover'});
+                $('.text-content h1').text('extinction');
+            });
+            $('#img5').click(function(){
+                $('.background').css({background: 'url(./img/rumble-b.jpeg) no-repeat center', backgorbackgroundSizeundSize: 'cover'});
+                $('.text-content h1').text('extinction');
+            });
+        });
+    </script>
+    <script src="test.js"></script>
+</body>
+</html>

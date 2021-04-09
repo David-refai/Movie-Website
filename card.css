@@ -1,0 +1,93 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    justify-content: center;  
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas:  
+    'main'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+}
+main{
+    grid-area: main;
+    padding: 1rem;
+}
+footer{
+    margin-top: 94%;
+    height: 5%;
+    grid-area: footer;
+    background-color: black;
+    color: whitesmoke;
+}
+h1{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+h2{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    margin: 0 0 10px 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.row.center{
+    justify-content: center;
+}
+
+.medium{
+    max-width: 29rem;
+    width: 100%;
+    
+}
+
+.card-body a{
+    text-decoration-line: none;
+   
+}
+.card-body a:hover{
+    border-bottom:  2px black solid;
+}
+
+
+/* card */
+.card{
+    max-width: 29rem;
+    width: 100%;
+    border: 0.1rem rgb(161, 133, 133) ;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.card-body{
+    padding: 1rem;
+}
+.card-body > *{
+    margin-bottom: 0.5rem;
+}
+
+.rating span{
+    color: #f0c040;
+    margin: 0.1rem;
+    border-radius: 1px ;
+}
